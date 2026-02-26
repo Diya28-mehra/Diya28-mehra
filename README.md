@@ -1,16 +1,37 @@
-## Hi there 👋
+enum Mode {
+    Learning,
+    Building,
+    Shipping,
+}
 
-<!--
-**Diya28-mehra/Diya28-mehra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+struct Developer {
+    name: &'static str,
+    role: &'static str,
+    mode: &'static str,
+    caffeine_level: u8,
+    tech_stack: Vec<&'static str>,
+}
 
-Here are some ideas to get you started:
+fn main() {
+    let diya = Developer {
+        name: "Diya Mehra",
+        role: "Full Stack & Blockchain Developer",
+        mode: "Building 🛠️",
+        caffeine_level: 82,
+        tech_stack: vec![
+            "Rust 🦀",
+            "Solana ⚡",
+            "TypeScript 🟦",
+            "JavaScript 🟨",
+            "Next.js ▲",
+            "React ⚛️",
+            "Django 🐍",
+        ],
+    };
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    println!("Name → {}", diya.name);
+    println!("Role → {}", diya.role);
+    println!("Mode → {}", diya.mode);
+    println!("Caffeine Level → {}%", diya.caffeine_level);
+    println!("Tech Stack → {}", diya.tech_stack.join(" | "));
+}
