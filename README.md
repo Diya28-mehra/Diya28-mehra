@@ -13,15 +13,7 @@ fn main() {
         role: "Backend Dev & Blockchain Dev",
         mode: "Building 🛠️",
         caffeine: 82,
-        stack: [
-            "Rust 🦀",
-            "Solana ⚡",
-            "TS 🟦",
-            "JS 🟨",
-            "Next ▲",
-            "React ⚛️",
-            "Django 🐍",
-        ],
+        stack: ["Rust 🦀","TS 🟦","JS 🟨", "Python 🐍"],
     };
 
     println!("{} | {}", me.name, me.role);
