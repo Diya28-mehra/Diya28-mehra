@@ -1,3 +1,4 @@
+```rust
 struct Developer {
     name: &'static str,
     role: &'static str,
@@ -9,12 +10,17 @@ struct Developer {
 fn main() {
     let me = Developer {
         name: "Diya Mehra",
-        role: "Full Stack & Blockchain Dev",
+        role: "Backend Dev & Blockchain Dev",
         mode: "Building 🛠️",
         caffeine: 82,
         stack: [
-            "Rust 🦀", "Solana ⚡", "TS 🟦",
-            "JS 🟨", "Next ▲", "React ⚛️", "Django 🐍"
+            "Rust 🦀",
+            "Solana ⚡",
+            "TS 🟦",
+            "JS 🟨",
+            "Next ▲",
+            "React ⚛️",
+            "Django 🐍",
         ],
     };
 
@@ -22,3 +28,4 @@ fn main() {
     println!("Mode: {} | Caffeine: {}%", me.mode, me.caffeine);
     println!("Stack: {}", me.stack.join(" • "));
 }
+```
