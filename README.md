@@ -49,6 +49,6 @@ fn main() {
 
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Diya28-mehra&layout=compact&theme=tokyonight)
 
-
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F700FF&lines=Full+Stack+Developer;Solana+Builder;AI+Explorer;Future+Founder+🚀)](https://git.io/typing-svg)
 
 
