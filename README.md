@@ -1,37 +1,24 @@
-enum Mode {
-    Learning,
-    Building,
-    Shipping,
-}
-
 struct Developer {
     name: &'static str,
     role: &'static str,
     mode: &'static str,
-    caffeine_level: u8,
-    tech_stack: Vec<&'static str>,
+    caffeine: u8,
+    stack: [&'static str; 7],
 }
 
 fn main() {
-    let diya = Developer {
+    let me = Developer {
         name: "Diya Mehra",
-        role: "Full Stack & Blockchain Developer",
+        role: "Full Stack & Blockchain Dev",
         mode: "Building 🛠️",
-        caffeine_level: 82,
-        tech_stack: vec![
-            "Rust 🦀",
-            "Solana ⚡",
-            "TypeScript 🟦",
-            "JavaScript 🟨",
-            "Next.js ▲",
-            "React ⚛️",
-            "Django 🐍",
+        caffeine: 82,
+        stack: [
+            "Rust 🦀", "Solana ⚡", "TS 🟦",
+            "JS 🟨", "Next ▲", "React ⚛️", "Django 🐍"
         ],
     };
 
-    println!("Name → {}", diya.name);
-    println!("Role → {}", diya.role);
-    println!("Mode → {}", diya.mode);
-    println!("Caffeine Level → {}%", diya.caffeine_level);
-    println!("Tech Stack → {}", diya.tech_stack.join(" | "));
+    println!("{} | {}", me.name, me.role);
+    println!("Mode: {} | Caffeine: {}%", me.mode, me.caffeine);
+    println!("Stack: {}", me.stack.join(" • "));
 }
