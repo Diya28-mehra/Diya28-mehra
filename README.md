@@ -21,10 +21,9 @@ fn main() {
     println!("Stack: {}", me.stack.join(" • "));
 }
 ```
-
-
 ## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Diya28-mehra&show_icons=true&theme=tokyonight" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Diya28-mehra&layout=compact&theme=tokyonight" height="165"/>
-</p>
+
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Diya28-mehra&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Diya28-mehra&layout=compact&theme=tokyonight)
+
