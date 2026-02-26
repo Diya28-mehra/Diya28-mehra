@@ -54,3 +54,8 @@ fn main() {
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F700FF&lines=Full+Stack+Developer;Solana+Builder;AI+Explorer;Future+Founder+🚀)](https://git.io/typing-svg)
 
 
+## 🚀 Featured Projects
+
+- 🔹 **CodeBaseQA** – Chat with any GitHub repo using RAG  
+- 🔹 **Solana Token Launchpad** – Create SPL tokens with custom configs  
+- 🔹 **Crypto MCP Server** – MCP server for fetching realtime crypto data 
