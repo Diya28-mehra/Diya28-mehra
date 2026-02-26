@@ -44,7 +44,6 @@ fn main() {
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
 
 ## 📊 GitHub Stats
-## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Diya28-mehra&show_icons=true&theme=tokyonight" height="170"/>
