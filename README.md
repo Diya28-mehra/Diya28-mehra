@@ -1,3 +1,6 @@
+
+![Profile Views](https://komarev.com/ghpvc/?username=Diya28-mehra&label=Profile%20Views&color=0e75b6&style=flat)
+
 ```rust
 struct Developer {
     name: &'static str,
