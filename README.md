@@ -4,7 +4,8 @@ struct Developer {
     role: &'static str,
     mode: &'static str,
     caffeine: u8,
-    stack: [&'static str; 7],
+    stack: [&'static str; 4],
+    experience: [&'static str; 3],
 }
 
 fn main() {
@@ -13,12 +14,14 @@ fn main() {
         role: "Backend Dev & Blockchain Explorer",
         mode: "Building 🛠️",
         caffeine: 82,
-        stack: ["Rust 🦀","TS 🟦","JS 🟨", "Python 🐍"],
+        stack: ["Rust 🦀", "TS 🟦", "JS 🟨", "Python 🐍"],
+        experience: ["Amazon","BNY","Swyftins"],
     };
 
     println!("{} | {}", me.name, me.role);
     println!("Mode: {} | Caffeine: {}%", me.mode, me.caffeine);
     println!("Stack: {}", me.stack.join(" • "));
+    println!("Experience: {}", me.experience.join(" • "));
 }
 ```
 
