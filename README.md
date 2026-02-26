@@ -1,5 +1,7 @@
 
-![Profile Views](https://komarev.com/ghpvc/?username=Diya28-mehra&label=Profile%20Views&color=0e75b6&style=flat)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Diya28-mehra&label=Profile%20Views&color=blueviolet&style=for-the-badge"/>
+</p>
 
 ```rust
 struct Developer {
