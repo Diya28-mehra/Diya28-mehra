@@ -21,3 +21,9 @@ fn main() {
     println!("Stack: {}", me.stack.join(" • "));
 }
 ```
+
+
+## 📊 GitHub Stats
+
+![Diya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Diya28-mehra&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Diya28-mehra&layout=compact&theme=tokyonight)
