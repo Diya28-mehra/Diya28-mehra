@@ -56,6 +56,6 @@ fn main() {
 
 ## 🚀 Featured Projects
 
-- 🔹 **CodeBaseQA** – Chat with any GitHub repo using RAG  
-- 🔹 **Solana Token Launchpad** – Create SPL tokens with custom configs  
-- 🔹 **Crypto MCP Server** – MCP server for fetching realtime crypto data 
+🔹 **CodeBaseQA** – Chat with any GitHub repo using RAG  
+🔹 **Solana Token Launchpad** – Create SPL tokens with custom configs  
+🔹 **Crypto MCP Server** – MCP server for fetching realtime crypto data 
