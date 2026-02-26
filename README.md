@@ -10,7 +10,7 @@ struct Developer {
 fn main() {
     let me = Developer {
         name: "Diya Mehra",
-        role: "Backend Dev & Blockchain Dev",
+        role: "Backend Dev & Blockchain Explorer",
         mode: "Building 🛠️",
         caffeine: 82,
         stack: ["Rust 🦀","TS 🟦","JS 🟨", "Python 🐍"],
@@ -44,10 +44,13 @@ fn main() {
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white)
 
 ## 📊 GitHub Stats
+## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Diya28-mehra&show_icons=true&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Diya28-mehra&show_icons=true&theme=tokyonight" height="170"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Diya28-mehra&layout=compact&theme=tokyonight" height="170"/>
+</p>
 
-![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Diya28-mehra&layout=compact&theme=tokyonight)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F700FF&lines=Full+Stack+Developer;Solana+Builder;AI+Explorer;Future+Founder+🚀)](https://git.io/typing-svg)
 
